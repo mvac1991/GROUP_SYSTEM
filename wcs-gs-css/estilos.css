@@ -1,0 +1,207 @@
+@media screen and (max-width: 850px) {
+	.box {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.box {
+		width: 100%;
+	}
+}
+
+.CamposLogin {
+	
+	height: 30px; 
+	width: 95%;
+
+}
+
+.TextoH1 {
+ 
+ margin-bottom:5%;
+
+	}
+	
+.Caixa{
+	border: 0px solid red;
+	width: 49%;
+	float: left;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+
+* { margin: 0; padding: 0; font-family:Tahoma; font-size:9pt;}
+		#divCenter { 
+			background-color: #e1e1e1; 
+			width: 400px; 
+			height: 200px; 
+			left: 50%; 
+			margin: -130px 0 0 -210px; 
+			padding:10px;
+			position: absolute; 
+			top: 50%; }
+
+footer {
+ width: 100%;
+ position: fixed;
+ bottom: 0;
+ right: 0;
+ background: none;
+ color: black;
+ height: 40px;
+ display: flex;
+}
+
+header {
+ width: 100%;
+ position: fixed;
+ top: 0;
+ left: 0;
+ color: white;
+ background: none;
+ height: 40px;
+}
+
+.titulo-paginas {
+	font-size: 36px;
+	width:600px; 
+	margin-top:20px;
+	margin-left: 28%;
+	color:#696969; 
+	line-height: 30px;
+}
+
+.titulo-relatorios {
+	font-size: 46px;
+	width:600px; 
+	margin-top:20px;
+	margin-bottom:30px; 
+	color:#696969; 
+	text-align:left;
+}
+
+.testbutton {
+  font-family: arial;
+  color: #14396A !important;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #7CACDE;
+  box-shadow: 4px 4px 8px #839EAB;
+  padding: 12px 32px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 2px solid #3866A3;
+  background: #63B8EE;
+}
+.testbutton:hover {
+  color: #14396A !important;
+}
+
+#alinhar-centro {text-align: center}
+
+.botao-formularios {
+	width:450px;
+	height:50px;
+	color: #000000 !important;
+	box-shadow: 3px 3px 3px #8B8989;
+	padding: 10px 25px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 0px solid #3866A3;
+	background: #FF6A6A;
+	background: linear-gradient(top,  #FF6A6A,  #CD5555);
+	background: -ms-linear-gradient(top,  #FF6A6A,  #CD5555);
+	background: -webkit-gradient(linear, left top, left bottom, from(#FF6A6A), to(#CD5555));
+	background: -moz-linear-gradient(top,  #FF6A6A,  #CD5555);
+}
+
+.botao-formularios:hover {
+  color: #000000 !important;
+  background: #468CCF;
+  background: linear-gradient(top,  #CD5555,  #FF6A6A);
+  background: -ms-linear-gradient(top,  #CD5555,  #FF6A6A);
+  background: -webkit-gradient(linear, left top, left bottom, from(#CD5555), to(#FF6A6A));
+  background: -moz-linear-gradient(top,  #CD5555,  #FF6A6A);
+}
+
+.botao2 {
+	margin-top: -40px;
+	text-align:center;
+	font-size: 20px;
+	width:100px;
+	height:50px;
+	background-color: #FF6A6A !important;
+	border-radius: 20px;
+	border-width:0px;
+	float:right;
+	position: relative;
+}
+
+.botao2:hover {
+	text-decoration:none;
+	background-color: #FF6A6A !important;
+}
+
+.fundo {
+	background-image: url(../wcs-gs-images/Fundo_Painel.jpeg); 
+	-webkit-background-size: cover;
+}
+
+#nav {
+	float:left;
+	margin-top:10px ;
+	margin-right:15px;
+	margin-left:15px;
+	position:fixed;
+}
+#nav ul {
+	font:16px arial,tahoma,verdana;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#nav ul li {
+	float:left;
+	position:relative;
+	display:block;
+	width: 167px;
+	line-height: 0px;
+}
+#nav ul li a {
+	color:#000;
+	background:#fff;
+	text-decoration:none;
+	margin:0 1px;
+	padding:15px 20px;
+	display:block;
+}
+#nav li ul {
+	display:none;
+}
+#nav li li {
+	width: 300px;
+	line-height: 0px;
+}
+#nav ul li a:hover {
+	background:#333;
+	color:#fff;
+}
+#nav li:hover ul {
+	display:block;
+	position:relative;
+}
+#nav li:hover li {
+	float:none;
+	font-size:12px;
+}
+#nav li:hover a {
+	background:#333;
+	color:#fff;
+}
+#nav li:hover li a:hover {
+	background:#222;
+}
+
+
