@@ -36,7 +36,7 @@
 							<td width="150"><b>PERMISSÃO</b></td>
 						</tr>
 						
-						<?
+						<?php
 						
 							// QUERY SQL ------------------------------------------------------------------------------------------------------------------
 							$query = "select * from tab_grupos_acesso";
@@ -49,12 +49,12 @@
 						<!-- REGISTROS DO BANCO DE DADOS -->
 						
 						<tr>
-							<td width="70"><? echo $linha['codigo']; ?></td>
-							<td width="300"><? echo $linha['nome']; ?></td>
-							<td width="400"><? echo $linha['permissao']; ?></td>
+							<td width="70"><?php echo $linha['codigo']; ?></td>
+							<td width="300"><?php echo $linha['nome']; ?></td>
+							<td width="400"><?php echo $linha['permissao']; ?></td>
 						</tr>
 						
-						<?
+						<?php
 						
 						}	
 											

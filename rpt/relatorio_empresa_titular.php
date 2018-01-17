@@ -44,7 +44,7 @@
 							<td width="150"><b>CPF DO RESPONSÁVEL</b></td>
 						</tr>
 						
-						<?
+						<?php
 						
 							// QUERY SQL ------------------------------------------------------------------------------------------------------------------
 							$query = "select * from tab_empresa_titular";
@@ -57,20 +57,20 @@
 						<!-- REGISTROS DO BANCO DE DADOS -->
 						
 						<tr>
-							<td width="70"><? echo $linha['codigo']; ?></td>
-							<td width="300"><? echo $linha['razao']; ?></td>
-							<td width="150"><? echo $linha['fantasia']; ?></td>
-							<td width="150"><? echo $linha['cnpj']; ?></td>
-							<td width="100"><? echo $linha['inscricao']; ?></td>
-							<td width="200"><? echo $linha['email']; ?></td>
-							<td width="150"><? echo $linha['telefone']; ?></td>
-							<td width="200"><? echo $linha['contato']; ?></td>
-							<td width="150"><? echo $linha['data_fundacao']; ?></td>
-							<td width="150"><? echo $linha['nome_responsavel']; ?></td>
-							<td width="150"><? echo $linha['cpf_responsavel']; ?></td>
+							<td width="70"><?php echo $linha['codigo']; ?></td>
+							<td width="300"><?php echo $linha['razao']; ?></td>
+							<td width="150"><?php echo $linha['fantasia']; ?></td>
+							<td width="150"><?php echo $linha['cnpj']; ?></td>
+							<td width="100"><?php echo $linha['inscricao']; ?></td>
+							<td width="200"><?php echo $linha['email']; ?></td>
+							<td width="150"><?php echo $linha['telefone']; ?></td>
+							<td width="200"><?php echo $linha['contato']; ?></td>
+							<td width="150"><?php echo $linha['data_fundacao']; ?></td>
+							<td width="150"><?php echo $linha['nome_responsavel']; ?></td>
+							<td width="150"><?php echo $linha['cpf_responsavel']; ?></td>
 						</tr>
 						
-						<?
+						<?php
 						
 						}	
 											

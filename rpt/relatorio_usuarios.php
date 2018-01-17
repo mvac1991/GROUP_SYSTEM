@@ -40,9 +40,9 @@
 							<td width="300"><b>FUNÇÃO</b></td>
 						</tr>
 						
-						<?
+						<?php
 						
-							// QUERY SQL ------------------------------------------------------------------------------------------------------------------
+							// QUERY SQL ----------------------------------------
 							$query = "select * from tab_usuarios";
 							$resultado = mysql_query($query, $conexao);
 							
@@ -53,16 +53,16 @@
 						<!-- REGISTROS DO BANCO DE DADOS -->
 						
 						<tr>
-							<td width="70"><? echo $linha['codigo']; ?></td>
-							<td width="300"><? echo $linha['nome']; ?></td>
-							<td width="150"><? echo $linha['login']; ?></td>
-							<td width="200"><? echo $linha['cpf']; ?></td>
-							<td width="200"><? echo $linha['telefone']; ?></td>
-							<td width="200"><? echo $linha['email']; ?></td>
-							<td width="300"><? echo $linha['funcao']; ?></td>
+							<td width="70"><?php echo $linha['codigo']; ?></td>
+							<td width="300"><?php echo $linha['nome']; ?></td>
+							<td width="150"><?php echo $linha['login']; ?></td>
+							<td width="200"><?php echo $linha['cpf']; ?></td>
+							<td width="200"><?php echo $linha['telefone']; ?></td>
+							<td width="200"><?php echo $linha['email']; ?></td>
+							<td width="300"><?php echo $linha['funcao']; ?></td>
 						</tr>
 						
-						<?
+						<?php
 						
 						}	
 											
