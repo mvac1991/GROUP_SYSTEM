@@ -1,7 +1,5 @@
 <?php include "../wcs-gs-actions/verificar_sessao_usuario.php"; ?>
 
-<?php session_start(); ?>
-
 <!DOCTYPE html>
 
 <html>
@@ -16,7 +14,7 @@
 		
 		<form action="../wcs-gs-actions/cadastrar_grupo_acesso.php" method="POST">
 
-			<input required autofocus maxlength="20" type="text" style="width:570px" placeholder="Nome do Grupo" name=txt_nome id="txt_nome" value="<?php echo $_SESSION['s_nome']; ?>"></br>
+			<input required autofocus maxlength="30" type="text" style="width:570px" placeholder="Nome do Grupo" name=txt_nome id="txt_nome""></br>
 			
 			<select size="1" name=txt_permissao required style="width:585px">
 

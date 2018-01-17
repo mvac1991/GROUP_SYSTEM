@@ -5,7 +5,7 @@
 	// CONFIGURAÇÕES LOCAL --------------------------------------------------------------------------------------------------------
 	$host="localhost";
 	$user="root";
-	$pass="mvac1991";
+	$pass="";
 	$banco="bd_group_system_web";
 
     // CONFIGURAÇÕES ONLINE -------------------------------------------------------------------------------------------------------
@@ -18,7 +18,7 @@
 	$conexao = mysql_connect($host,$user,$pass);
 	mysql_select_db($banco);
 
-    session_start();
+    //session_start();
 
     $_SESSION['s_host']=$host;
 	$_SESSION['s_db_user']=$user;
